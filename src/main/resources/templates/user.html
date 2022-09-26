@@ -1,0 +1,14 @@
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+ <div>
+          <label>이름</label>
+          <p>${user.username}</p>
+          <%=user.username %>
+        </div>
+        <div th:text="${info}"></div>
+</body>
+</html>
